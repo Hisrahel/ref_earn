@@ -11,6 +11,7 @@
 }
 .ref-bg2{
     background: #C8C8C8;
+    border-radius: 0px 10px 10px 0px;
 }
 .ref-setup{
     background: #001B45;
@@ -67,4 +68,83 @@
 .fail{
     background: rgb(247, 109, 132);
     color: red;
+}
+.ref-img{
+    width: 100%;
+    padding-top: 50px;
+}
+
+
+/* REPONSIVENESS */
+
+ @media (min-width: 0px) and (max-width: 480px) {
+    .ref-img{
+        width: 100%;
+    } 
+    .ref-acct{
+        font-size: 12px;
+        text-align: left;
+    }
+    .ref-payout{
+        font-size: 10px;
+        text-align: left;
+        padding-bottom: 0px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .ref-bg2{
+        height: 27vh;
+    }
+    .ref-pay{
+        font-size: small !important;
+    }
+    .progress{
+        width: 100%;
+    }
+    .progress-bar{
+        width: 50%;
+        background: #002147;
+    }
+    .ref{
+        height: 170px;
+    }
+} 
+ @media (min-width: 481px) and (max-width: 768px) {
+    .ref-img{
+        width: 100%;
+    }
+    .ref-acct{
+        font-size: 12px;
+        text-align: left;
+    }
+    .ref-payout{
+        font-size: 10px;
+        text-align: left;
+        padding-bottom: 0px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .ref-bg2{
+        height: 25vh;
+    }
+    .ref-pay{
+        font-size: small !important;
+    }
+    .progress{
+        width: 100%;
+    }
+    .progress-bar{
+        width: 50%;
+        background: #002147;
+    }
+}  
+@media (min-width: 768px) and (max-width: 991px) {
+    .ref-img{
+        width: 200%;
+    }
+    .ref-bg2{
+        height: 200px;
+    }
 }
